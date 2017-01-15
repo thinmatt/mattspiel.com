@@ -1,0 +1,254 @@
+/* line 5, ../../../../../.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../.rbenv/versions/2.1.4/lib/ruby/gems/2.1.0/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 27, ../../sass/styles.sass */
+h1 {
+  font-family: "abril-text", serif;
+  color: #333333;
+  font-weight: 700;
+}
+/* line 31, ../../sass/styles.sass */
+.left h1 {
+  font-size: 3em;
+  font-style: italic;
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  position: absolute;
+  top: 50%;
+  margin-right: 40px;
+}
+@media all and (max-width: 1420px) {
+  /* line 31, ../../sass/styles.sass */
+  .left h1 {
+    font-size: 2.5em;
+  }
+}
+@media all and (max-width: 1230px) {
+  /* line 31, ../../sass/styles.sass */
+  .left h1 {
+    font-size: 2em;
+  }
+}
+@media all and (max-width: 1010px) {
+  /* line 31, ../../sass/styles.sass */
+  .left h1 {
+    font-size: 1.75em;
+  }
+}
+@media all and (max-width: 920px) {
+  /* line 31, ../../sass/styles.sass */
+  .left h1 {
+    font-size: 1.5em;
+    margin-right: 20px;
+  }
+}
+
+/* line 49, ../../sass/styles.sass */
+a {
+  text-decoration: none;
+  color: #1a1a1a;
+  -moz-transition: color 0.5s ease;
+  -o-transition: color 0.5s ease;
+  -webkit-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+}
+/* line 53, ../../sass/styles.sass */
+a:hover {
+  color: #cfad06;
+  -moz-transition: color 0.2s ease;
+  -o-transition: color 0.2s ease;
+  -webkit-transition: color 0.2s ease;
+  transition: color 0.2s ease;
+}
+
+/* line 61, ../../sass/styles.sass */
+body {
+  font-size: 16px;
+  line-height: 1.3;
+}
+
+/* line 65, ../../sass/styles.sass */
+.right,
+.left {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 20px solid #000;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+@media all and (max-width: 920px) {
+  /* line 65, ../../sass/styles.sass */
+  .right,
+  .left {
+    border-width: 10px;
+  }
+}
+@media all and (max-width: 720px) {
+  /* line 65, ../../sass/styles.sass */
+  .right,
+  .left {
+    right: 0;
+  }
+}
+
+/* line 78, ../../sass/styles.sass */
+.left {
+  right: 50%;
+  left: 0;
+  border-right: 0;
+  padding: 40px;
+}
+@media all and (max-width: 920px) {
+  /* line 78, ../../sass/styles.sass */
+  .left {
+    padding: 20px;
+  }
+}
+@media all and (max-width: 720px) {
+  /* line 78, ../../sass/styles.sass */
+  .left {
+    right: 0;
+    border-right: 10px solid #000;
+    border-color: #fff;
+    text-align: center;
+  }
+}
+
+/* line 92, ../../sass/styles.sass */
+.right {
+  right: 0;
+  left: 50%;
+  border-left: 0;
+  background: #000 url('../img/bg.jpg?1420040331') center;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+@media all and (max-width: 720px) {
+  /* line 92, ../../sass/styles.sass */
+  .right {
+    left: 0;
+    z-index: -1;
+    opacity: 0.1;
+    border-width: 0;
+  }
+}
+
+/* line 108, ../../sass/styles.sass */
+.nav {
+  position: absolute;
+  bottom: 40px;
+}
+@media all and (max-width: 720px) {
+  /* line 108, ../../sass/styles.sass */
+  .nav {
+    bottom: 20px;
+    left: 0;
+    right: 0;
+  }
+}
+/* line 115, ../../sass/styles.sass */
+.nav--link {
+  margin-right: 20px;
+  background: #cfad06;
+  float: left;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  padding: 3px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  position: relative;
+  -moz-transition: margin 0.5s ease;
+  -o-transition: margin 0.5s ease;
+  -webkit-transition: margin 0.5s ease;
+  transition: margin 0.5s ease;
+}
+@media all and (max-width: 720px) {
+  /* line 115, ../../sass/styles.sass */
+  .nav--link {
+    float: none;
+    margin: 0 10px;
+    display: inline-block;
+  }
+}
+/* line 130, ../../sass/styles.sass */
+.nav--link .icon {
+  fill: #fff;
+}
+/* line 132, ../../sass/styles.sass */
+.nav--link:hover {
+  margin-top: -3px;
+  -moz-transition: margin 0.2s ease;
+  -o-transition: margin 0.2s ease;
+  -webkit-transition: margin 0.2s ease;
+  transition: margin 0.2s ease;
+}
